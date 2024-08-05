@@ -21,7 +21,7 @@ module tb;
     td = new();
     td.randomize();
     foreach(td.my_arr[i,j]) begin
-      $display($time,"my_arr[%0d][%0d] = %0d ",i,j,td.my_arr[i]);
+      $display($time,"my_arr[%0d][%0d] = %0d ",i,j,td.my_arr[i][j]);
     end
   end
 endmodule 
